@@ -42,7 +42,7 @@ def seeder(filename, port):
             data = f.read()
             conn.sendall(data)
         conn.close()
-        //testing the file now
+        # testing the file now
 
 # Leecher (TCP Client)
 def leecher(filename):
